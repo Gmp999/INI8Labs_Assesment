@@ -1,0 +1,89 @@
+/* Background image for the body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('/static/image/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Translucent, glass-like container */
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.1); /* very transparent white */
+  backdrop-filter: blur(15px); /* background blur */
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  padding: 35px 40px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Inputs and buttons with neon-glow feel */
+form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s;
+}
+
+form input:focus {
+  outline: none;
+  border: 1px solid #00bfff;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+form button {
+  background: #00bfff;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 0 10px #00bfff80;
+}
+
+form button:hover {
+  background: #009acd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #fff;
+}
+
+thead {
+  background: rgba(0, 191, 255, 0.8);
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.edit-btn {
+  background: #2ecc71;
+  box-shadow: 0 0 8px #2ecc7180;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  box-shadow: 0 0 8px #e74c3c80;
+}
