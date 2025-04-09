@@ -48,6 +48,7 @@ A sleek, responsive web application built with Django that allows users to regis
 2. **Create a Virtual Environment**
 
     python -m venv venv
+   
     source venv/bin/activate  # on Windows: venv\Scripts\activate
 
 4. **Install Dependencies**
