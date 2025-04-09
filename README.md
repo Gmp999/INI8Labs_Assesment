@@ -24,12 +24,6 @@ A sleek, responsive web application built with Django that allows users to regis
 
 ---
 
-## 📷 UI Preview
-
-![App Screenshot](static/images/register.jpg)
-
----
-
 ## 📁 Project Structure
 
 ├── backend/ │ ├── registration/ │ │ ├── migrations/ │ │ ├── static/ │ │ │ └── images/ │ │ │ └── register.jpg │ │ ├── templates/ │ │ │ └── index.html │ │ ├── admin.py │ │ ├── models.py │ │ ├── views.py │ │ ├── urls.py │ ├── backend/ │ │ └── settings.py ├── db.sqlite3 ├── manage.py ├── README.md
@@ -58,6 +52,7 @@ A sleek, responsive web application built with Django that allows users to regis
 5. **Apply Migrations**
 
     python manage.py makemigrations
+   
     python manage.py migrate
    
 7. **Run the Server**
